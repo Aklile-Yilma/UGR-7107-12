@@ -73,6 +73,7 @@
     display: none;
   }
   #works_table{
+    width:100%;
     margin-bottom:5%;
   }
    #main_aside{
