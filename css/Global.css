@@ -60,6 +60,10 @@ header{
   color: white;
   margin: 0 5%;
 }
+#nav_header a:hover{
+  background-color: var(--color-accent);
+  padding: 15px;
+}
 
 #h_logo{
   margin:auto;

@@ -1,7 +1,7 @@
 #works_intro h1{
   margin-left:10%;
 }
-#works_intro h3{
+#works_intro h2{
   margin-left:30%;
 }
 
@@ -25,7 +25,7 @@
 }
 
 #works_table thead{
-  background-color: #FF5722;
+  background-color: var(--color-accent);
 }
 #works_table , th, td {
   border: 2px solid #BDBDBD;
@@ -62,7 +62,7 @@
   #video{
     width:80%;
   }
-  #works_intro h3{
+  #works_intro h2{
   margin-left:0;
   }
   #table_title{

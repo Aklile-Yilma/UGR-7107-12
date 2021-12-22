@@ -15,7 +15,6 @@
 }
 
 #intro p em{
-  color: var(--color-accent);
   font-weight: bold;
 }
 
