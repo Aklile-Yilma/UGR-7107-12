@@ -78,6 +78,7 @@
   }
    #main_aside{
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
   }
     #works_intro{
@@ -85,7 +86,7 @@
   }
   aside{
     width:100%;
-    /*! margin:auto; */
+  
   }
 }
 
