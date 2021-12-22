@@ -17,9 +17,7 @@
   width:100%;
   margin-left:5%;
 }
-#info p{
-  /*! margin-left:-70%; */
-}
+
 #info p a{
   color:white;
 }
@@ -74,13 +72,12 @@ input[type=text]:focus{
    border: 3px solid #FF5722;
 }
 #field_wrap{
-  width:40%;
+  width:80%;
   font-size:150%;
   margin:auto;
 }
-#field_wrap div {
-  display: flex;
- margin:5% auto 5% auto;
+#email_wrapper {
+ margin:0% auto 5% auto;
   
 }
 input[type=text] {
@@ -108,11 +105,25 @@ textarea:focus{
   display: flex;
   
 }
+#submit_wrapper{
+  display: flex;
+}
 input[type=submit]{
   width:30%;
   margin:10% auto 10% auto;
   
-  
+}
+.name_wrapper, .field_wrapper, .input_wrapper{
+  display: flex;
+}
+#email_wrapper, .message{
+  width:50%;
+}
+.input_wrapper{
+ margin-bottom: 5%;
+}
+.name_wrapper > div{
+  width:50%;
 }
 
 
@@ -147,6 +158,16 @@ input[type=submit]{
   }
   textarea{
     margin-left:15%;
+  }
+  .name_wrapper{
+    display: block;
+    
+  }
+  .field_wrapper{
+    display: block;
+  }
+  .input_wrapper, #email_wrapper{
+    width: 100% !important;
   }
     
   

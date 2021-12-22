@@ -67,28 +67,34 @@
         <form action="" method="post" id="form">
             <h1>Email me right now</h1>
             <div id="field_wrap">
-                <div>
-                    <label>First Name:</label>  <input type="text" name="firstName">
+                <div class="name_wrapper">
+                    <div class="input_wrapper">
+                        <label>First Name:</label>  <input type="text" name="firstName">
+                    </div>
+        
+                    <div class="input_wrapper">
+                        <label>Last Name:</label>   <input type="text" name="lastName" >
+                    </div>
                 </div>
-    
-                <div>
-                    <label>Last Name:</label>   <input type="text" name="lastName" >
+
+                <div class="field_wrapper">
+                    <div id="email_wrapper">
+                        <div class="input_wrapper">
+                            <label>Email address: </label> <input type="text" name="email" >
+                        </div>
+            
+                        <div class="input_wrapper">
+                            <label>Subject: </label> <input type="text" name="subject" >
+                        </div>
+                     </div> 
+                     
+                     <div class="input_wrapper message">
+                        <label>Message: </label>
+                            <textarea name="message" rows="15" col="10"></textarea>
+                    </div>
                 </div>
-                
-                <div>
-                    <label>Email address: </label> <input type="text" name="email" >
-                </div>
-    
-                <div>
-                    <label>Subject: </label> <input type="text" name="subject" >
-                </div>
-    
-                <div>
-                    <label>Message: </label>
-                        <textarea name="message" rows="15" col="10"></textarea>
-                </div>
-    
-                <div>
+
+                <div id="submit_wrapper">
                     <input type="submit" name="Submit" value="Submit" class="button">
                 </div>
 
