@@ -78,7 +78,7 @@
   }
    #main_aside{
     display: grid;
-    grid-template-rows: 30% 30% 40%;
+    grid-template-rows: 30% 10% 60%;
     grid-template-columns: 100%;
   }
     #works_intro{
@@ -86,7 +86,7 @@
   }
   aside{
     width:100%;
-    margin:auto;
+    /*! margin:auto; */
   }
 }
 
