@@ -80,6 +80,9 @@
     grid-template-rows: 30% 30% 40%;
     grid-template-columns: 100%;
   }
+    #works_intro{
+    margin-bottom: 10%;
+  }
 }
 
 

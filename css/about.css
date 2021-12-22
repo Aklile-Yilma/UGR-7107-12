@@ -39,6 +39,7 @@ h1{
 
 
 @media(max-width: 768px){
+  
     #nav_header a:not(:nth-child(6)){
     display: none;
   }
@@ -59,7 +60,7 @@ h1{
   }
    #Hobbies_more{
     display: grid;
-    grid-template-rows: 30% 30% 30%;
+    grid-template-rows: 30% 50% 20%;
     grid-template-columns: 100%;
   }
   #Hobbies_more h2{

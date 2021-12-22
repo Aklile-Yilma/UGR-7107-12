@@ -64,6 +64,12 @@ margin-left:10%;
   #container{
     display: block;
   }
+  #nav_header a:not(:nth-child(4)){
+    display: none;
+  }
+     #nav_header a:nth-child(4){
+    margin-left:auto;
+  }
   #container article{
   width:90%;
   }
@@ -88,7 +94,7 @@ textarea{
   width:145px;
 }
 
-@media(min-width:1025px){{
+@media(min-width:1025px){
   
   }
 

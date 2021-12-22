@@ -11,7 +11,7 @@
 }
 #info h1{
   width:100%;
-  margin-left:20%;
+  margin-left:20%; 
 }
 #info h2{
   width:100%;
@@ -140,6 +140,10 @@ input[type=submit]{
    #info{
     margin:auto;
      width:90%; 
+  }
+  #info h1{
+    margin-left:0;
+    text-align: center;
   }
   #main_aside{
     display: block;
