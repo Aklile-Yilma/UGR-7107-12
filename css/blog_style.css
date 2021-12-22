@@ -1,0 +1,53 @@
+#container{
+  width:40%;
+  margin:auto;
+}
+#container section{
+  width:100%;
+  margin:auto;
+  border: 3px solid #BDBDBD;
+  margin-bottom:15%;
+  padding:5%;
+}
+
+#container section p{
+  margin-bottom: 5%;
+}
+
+#pages{
+  margin: 10% 30%;
+}
+#pages a{
+  padding:2%;
+  
+}
+
+
+
+
+
+@media(max-width: 768px){
+  #container{
+    width:80%;
+  }
+   #nav_header a:not(:nth-child(4)){
+    display: none;
+  }
+     #nav_header a:nth-child(4){
+    margin-left:auto;
+  }
+  
+}
+
+@media(min-width:769px) and (max-width:1024px){
+  
+}
+
+@media(min-width:1025px){
+  #pages a{
+    padding:1%;
+  }
+}
+
+
+

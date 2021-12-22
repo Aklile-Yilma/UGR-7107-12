@@ -1,0 +1,201 @@
+:root{
+  --color-accent: #FF5722;
+  --color-primary: #152A64;
+  --color-secondary: #000923;
+}
+
+/*header styles*/
+body{
+  background-color: var(--color-primary);
+  color:white;
+  margin:0;
+  font-family: sans-serif;
+}
+
+a{
+  text-decoration:none;
+  color: inherit;
+}
+
+
+
+.horizontal{
+  margin:10% 5% 15%  5%;
+  border:3px solid #BDBDBD;
+}
+.vertical{
+  border-left: 5px solid  #BDBDBD;
+ }
+.button{
+  color:white;
+  background-color: var(--color-accent);
+  padding:1em 2em;
+  border-style: solid;
+  border-color: var(--color-accent);
+  text-transform: uppercase;
+  border-radius: 0.5em;
+}
+
+.button:hover{
+  background-color: white;
+  
+  color: var(--color-accent)
+  
+}
+
+header{
+  display:flex;
+}
+
+#nav_header{
+  display: flex;
+  width:100%;
+  margin:auto;
+  justify-content: center;
+}
+
+#nav_header a{
+  display: block;
+  text-decoration: none;
+  color: white;
+  margin: 0 5%;
+}
+
+#h_logo{
+  margin:auto;
+}
+
+#h_logo img{
+  width:100%;
+}
+
+
+
+@media(max-width: 768px){
+
+
+  #h_logo{
+    margin:auto;
+    width:20%;
+  }
+
+  
+  #nav_header.visible{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    background-color: var(--color-primary);
+    height: 100vh;
+  }
+  #nav_header.visible a{
+    display: block !important;
+    margin: auto !important;
+  }
+  
+  #nav_header.visible < header{
+    background-color: red;
+  }
+  
+
+    
+  #nav_header a.icon{
+    float:left;
+    display:block !important;
+    margin-left: auto; 
+  }
+   #f_logo{
+    display: none;
+  }
+  #nav_footer{
+    width:50%;
+    padding-left: 3%; 
+    
+  }
+  
+  .button{
+      padding:0.5em 1.5em;
+  }
+
+  
+  footer p{
+    /*! width:30%; */
+    font-size:50%;
+    
+  }
+  #nav_footer a{
+    margin:5%;
+   
+  }
+ 
+}
+
+@media(min-width:769px) and (max-width:1024px){
+  header{
+   padding: 2% 0;
+  }
+  #h_logo{
+    width:10%;
+  }
+ #nav_header .icon{
+    display:none !important;
+  }
+}
+
+
+
+@media(min-width:1025px){
+  #h_logo{
+    width:10%;
+  }
+  .icon{
+    display:none !important;
+  }
+}
+
+
+
+/*footer styles*/
+footer{
+  display: flex;
+  background-color: var(--color-secondary);
+  color: white;
+}
+
+#f_logo{
+  width:20%;
+  margin-right:10%;
+  
+}
+
+#f_logo img{
+  width:100%;
+}
+
+#nav_footer{
+  display: flex;
+  flex-wrap: wrap;
+  margin:auto;
+  margin-top:5%;
+  margin-bottom: 5%;
+
+}
+
+#nav_footer a{
+  display:block;
+  width:50%;
+  margin-right: auto;
+  margin-left: auto;
+  text-decoration: none;
+}
+
+footer p{
+  display: flex;
+  width: 30%%;
+  margin:auto;
+  justify-content: center;
+} 
+
+
+
+
+

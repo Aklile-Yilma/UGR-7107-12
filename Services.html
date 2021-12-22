@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Services</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/Global.css" rel="stylesheet">
+    <link href="css/Services_styles.css" rel="stylesheet">
+</head>
+    <body>
+        <header>
+            <figure id="h_logo">
+                <img src="Images/logos/Mylogos/aklile-logos_white_cropped.png" alt="Logo">
+            </figure>
+            <nav id="nav_header">
+                <a href="Home.html">Home</a>
+                <a href="Works.html">Works</a>
+                <a href="Services.html">Services</a>
+                <a href="Blog.html">Blog</a>
+                <a href="Contact.html">Contact</a>
+                <a href="About_Me.html">About Me</a>
+                <a href="javascript:void(0);" class="icon" onclick="toggleMenu()">
+                    <img src="Images/menu_white_24dp.svg" alt="navigation logo"> 
+                </a>
+            </nav>
+        </header>
+
+        <main>
+            
+            <section class="slideshow">
+                <nav class="left slide-nav">
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                </nav>
+         
+
+
+            <div id="slides_container">
+
+                <figure class="slides">
+                    <div class="number"> 1/4</div>
+                    <img src="Images/image2.jpg" alt="animated picture of reparing a website">
+                   
+                </figure>
+        
+                <figure class="slides">
+                    <div class="number">2/4</div>
+                    <img src="Images/image3.jpg" alt="animated picture">
+                </figure>
+        
+                <figure class="slides">
+                    <div class="number">3/4</div>
+                    <img src="Images/image4.jpg" alt="animated picture">
+                  
+                </figure>
+
+                <figure class="slides">
+                    <div class="number">4/4</div>
+                    <img src="Images/image6.png" alt="animated picture">
+    
+                </figure>
+            </div>
+
+            
+            <nav class="right slide-nav">
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </nav>
+        </section>
+
+        <div class="services-wrapper">
+        
+            <section class="services">
+                <h1>Service name: Get your website built</h1>
+                <p><strong>Description:</strong> By providing appropriate access to your website and the 
+                    software requirements specification(SRS), I will build a fully accessible, aesthetic 
+                    website.<br>
+                    <strong>Payments:</strong> In a range of <span class="price">7500-10000</span> Ethiopian Birr</p>
+                    <div class="link-wrapper">
+                        <a class="button" href="Contact.html" target="_parent">Contact Me</a>
+                    </div>
+            </section>
+    
+            
+            <section class="services right">
+                <h1>Service name: Get your website repaired</h1>
+                <p><strong>Description:</strong> By providing appropriate access to your website and the 
+                    software requirements specification(SRS),I will fix the existing problems such as aesthetics, back-end problems, 
+                   accessibility problems, unresponsive web pages and more. <br>
+                    <strong>Payments:</strong> In a range of <span class="price">2000-5000</span> Ethiopian Birr</p>
+                    <div class="link-wrapper">
+                        <a class="button" href="Contact.html" target="_parent">Contact Me</a>
+                    </div>
+            </section>
+    
+            
+            <section class="services">
+                <h1>Service name: Get your website Tested and Maintained </h1>
+                <p>
+                <strong>Description:</strong> By providing appropriate access to your website and the 
+                    software requirements specification(SRS), Let me look for problems, make sure your website will live a million years, 
+                    and let's avoid future problems. <br>
+                    <strong>Payments:</strong> In a range of <span class="price">3000-6000</span> Ethiopian Birr</p> 
+                    <div class="link-wrapper">
+                        <a class="button" href="Contact.html" target="_parent">Contact Me</a>
+                    </div>
+            </section>
+    
+            
+            <section class="services right">
+                <h1>Service name: Get Adversitments for your website</h1>
+                <p><strong>Description:</strong> Let me make advertisments for your website, on facebook , Instagram , Google ads, and more social medial sites. 
+                   <strong>Payments:</strong> In a range of <span class="price">500-1000</span> Ethiopian Birr</p> 
+                   <div class="link-wrapper">
+                    <a class="button" href="Contact.html" target="_parent">Contact Me</a>
+                </div>
+            </section>
+        </div>
+    
+    
+        
+        </main>
+
+    
+        <footer>
+            <figure id="f_logo">
+                <img src="Images/logos/Mylogos/aklile-logos_transparent.png" alt="Logo">
+            </figure>
+            
+            <nav id="nav_footer">
+                <a href="Home.html">Home</a>
+                <a href="Works.html">Works</a>
+                <a href="Services.html">Services</a>
+                <a href="Blog.html">Blog</a>
+                <a href="Contact.html">Contact</a>
+                <a href="About_Me.html">About Me</a>
+            </nav>
+
+            <p>
+                aklile web technologies <br> &copy;copyright 2021 <br> read the privacy policy!
+            </p>
+         
+        </footer>
+
+<script>
+    
+var slideIndex = 0;
+
+function showSlides() {
+var i;
+var images = document.getElementsByClassName("slides");
+for (i = 0; i<images.length; i++) {
+    images[i].style.display = "none"; 
+   
+}
+slideIndex++;
+
+if (slideIndex >images.length) {slideIndex = 1}
+images[slideIndex-1].style.display = "block";
+setTimeout(showSlides, 5000); 
+} 
+showSlides();
+
+</script>
+<script>
+    function plusSlides(a){
+    slideIndex+=a;
+}
+</script>
+<script src="js/common.js"></script>
+    </body>
+</html>

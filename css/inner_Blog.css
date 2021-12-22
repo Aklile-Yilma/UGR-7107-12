@@ -1,0 +1,95 @@
+#container{
+    display: flex;
+    width:90%;
+}
+
+#container article{
+  width:60%;
+  margin-left:10%;
+  margin-right: 5%;
+  font-size:130%;
+}
+#container article h1{
+  text-align: center;
+}
+#container figure{
+  margin:auto auto 10% auto;
+}
+#container figure img{
+  width:100%;
+}
+
+.paragraph{
+ margin-bottom: 15%;
+   
+}
+
+.comment_container{
+border: 2px solid #BDBDBD;
+margin: 5%;
+}
+.comment_container p:last-child{
+  margin-left:10%;
+  
+}
+.comment_container p:first-child{
+color:var(--color-accent);
+}
+#comments_wrapper h1{
+  text-align: center;
+  font-size:100%;
+  margin-top:5%;
+  margin-left:5%;
+}
+#comments_wrapper{
+ 
+  width:30%;
+  font-size:120%;
+  border: 2px solid #BDBDBD;
+  margin-bottom: 20%;
+  background-color: #CFD8DC;
+  color:#212121;
+}
+#add_comments{
+margin-top:5%;
+  margin-left:5%;
+}
+textarea{
+margin-left:10%;
+  resize: none;
+}
+
+
+@media(max-width: 768px){
+  #container{
+    display: block;
+  }
+  #container article{
+  width:90%;
+  }
+  #comments_wrapper{
+    width:90%;
+    margin:auto;
+    margin-bottom: 10%;
+  }
+  
+}
+
+
+@media(min-width:769px) and (max-width:1024px){
+  #container article{
+    width:70%;
+  }
+  #comments_wrapper{
+margin-right: -5%}
+}
+
+textarea{
+  width:145px;
+}
+
+@media(min-width:1025px){{
+  
+  }
+
+
