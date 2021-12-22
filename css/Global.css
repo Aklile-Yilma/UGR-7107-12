@@ -1,5 +1,5 @@
 :root{
-  --color-accent: #FF5722;
+  --color-accent: #d13100;
   --color-primary: #152A64;
   --color-secondary: #000923;
 }
@@ -92,9 +92,7 @@ header{
     margin: auto !important;
   }
   
-  #nav_header.visible < header{
-    background-color: red;
-  }
+ 
   
 
     
@@ -190,10 +188,14 @@ footer{
 
 footer p{
   display: flex;
-  width: 30%%;
+
   margin:auto;
   justify-content: center;
 } 
+
+transcript{
+  display: none;
+}
 
 
 
