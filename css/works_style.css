@@ -83,7 +83,11 @@
     #works_intro{
     margin-bottom: 10%;
   }
+  aside{
+    margin:5%;
+  }
 }
+
 
 
 @media(min-width:769px) and (max-width:1024px){
